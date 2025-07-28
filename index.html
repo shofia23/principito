@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Principito</title>
+    <style>
+        body {
+            background-color: #87CEFA; /* Azul claro */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+        }
+
+        .centered {
+            text-align: center;
+        }
+
+        .centered img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+        }
+
+        .section {
+            margin-top: 40px;
+        }
+
+        .float-left {
+            float: left;
+            width: 350px;
+            margin-right: 20px;
+            border-radius: 8px;
+        }
+
+        .text {
+            font-size: 22px;
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        /* Limpiar flotado */
+        .clearfix::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>EL PRINCIPITO</h1>
+
+        <div class="centered">
+            <img src="images/zorro.webp" alt="">
+            <p class="text">
+                "El Principito" es un cuento filosófico sobre un niño que viaja por el universo y aprende sobre la vida, el amor y la amistad. Un piloto, cuyo avión se avería en el desierto del Sahara, conoce al Principito, un joven príncipe de otro planeta. A través de conversaciones con el piloto y personajes que encuentra en diferentes asteroides, el Principito reflexiona sobre la naturaleza humana y el mundo de los adultos, a menudo visto como superficial y obsesionado con lo material. Finalmente, el Principito regresa a su planeta, dejando al piloto con profundas lecciones sobre la importancia de la amistad, el amor y la conexión humana, y la necesidad de preservar la inocencia y la imaginación de la infancia.
+            </p>
+        </div>
+
+        <div class="section clearfix">
+            <img src="images/libro.jpg" class="float-left" alt="Libro de El Principito">
+            <h1>¿Por qué tuvo tanto impacto su libro?</h1>
+            <p class="text">
+                "El Principito" ha tenido un impacto tan grande debido a su capacidad para conectar con lectores de todas las edades, ofreciendo profundas reflexiones sobre la vida, el amor, la amistad y la importancia de mantener una visión inocente y creativa del mundo. Su lenguaje accesible y sus alegorías universales han trascendido fronteras culturales y lingüísticas, convirtiéndose en una obra atemporal y ampliamente traducida.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
